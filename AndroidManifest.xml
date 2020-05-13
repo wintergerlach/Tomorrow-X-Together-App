@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tomorrowxtogether"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.tomorrowxtogether.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.tomorrowxtogether.SplashActivity"
+            android:label="@string/title_activity_splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.tomorrowxtogether.MembersActivity"
+            android:label="@string/title_activity_members" >
+        </activity>
+        <activity
+            android:name="com.example.tomorrowxtogether.SoobinActivity"
+            android:label="@string/title_activity_soobin" >
+        </activity>
+        <activity
+            android:name="com.example.tomorrowxtogether.YeonjunActivity"
+            android:label="@string/title_activity_yeonjun" >
+        </activity>
+        <activity
+            android:name="com.example.tomorrowxtogether.TaehyunActivity"
+            android:label="@string/title_activity_taehyun" >
+        </activity>
+        <activity
+            android:name="com.example.tomorrowxtogether.HueningKaiActivity"
+            android:label="@string/title_activity_huening_kai" >
+        </activity>
+        <activity
+            android:name="com.example.tomorrowxtogether.BeomgyuActivity"
+            android:label="@string/title_activity_beomgyu" >
+        </activity>
+        <activity
+            android:name="com.example.tomorrowxtogether.DiscographyActivity"
+            android:label="@string/title_activity_discography" >
+        </activity>
+        <activity
+            android:name="com.example.tomorrowxtogether.FavoritesActivity"
+            android:label="@string/title_activity_favorites" >
+        </activity>
+        <activity
+            android:name="com.example.tomorrowxtogether.MagicActivity"
+            android:label="@string/title_activity_magic" >
+        </activity>
+        <activity
+            android:name="com.example.tomorrowxtogether.StarActivity"
+            android:label="@string/title_activity_star" >
+        </activity>
+        <activity
+            android:name="com.example.tomorrowxtogether.CatDogActivity"
+            android:label="@string/title_activity_cat_dog" >
+        </activity>
+        <activity
+            android:name="com.example.tomorrowxtogether.OurSummerActivity"
+            android:label="@string/title_activity_our_summer" >
+        </activity>
+        <activity
+            android:name="com.example.tomorrowxtogether.ContactActivity"
+            android:label="@string/title_activity_contact" >
+        </activity>
+    </application>
+
+</manifest>

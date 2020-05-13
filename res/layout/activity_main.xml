@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tomorrowxtogether.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/buttonFavorites"
+        android:src="@drawable/ic_group" />
+
+    <TextView
+        android:id="@+id/textViewTXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/StringTXT" 
+        android:textSize = "30dp"/>
+
+    <Button
+        android:id="@+id/buttonFavorites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/buttonMmebers"
+        android:layout_below="@+id/buttonMmebers"
+        android:onClick="FavoritesClick"
+        android:text="@string/stringFavorites" />
+
+    <Button
+        android:id="@+id/buttonMmebers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewTXT"
+        android:layout_below="@+id/textViewTXT"
+        android:layout_marginTop="18dp"
+        android:onClick="MembersClick"
+        android:text="@string/stringMembers2" />
+
+    <Button
+        android:id="@+id/buttonDiscography"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonFavorites"
+        android:layout_alignRight="@+id/textViewTXT"
+        android:onClick="DiscographyClick"
+        android:text="@string/stringDiscography" />
+
+    <Button
+        android:id="@+id/buttonContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView1"
+        android:layout_alignRight="@+id/buttonDiscography"
+        android:onClick="ContactClick"
+        android:text="@string/StringContactButton" />
+
+</RelativeLayout>
+
